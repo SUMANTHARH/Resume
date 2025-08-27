@@ -22,6 +22,7 @@ main{
     /* #263238 */
 }
 nav{
+    cursor: pointer;
     display: flex;
     justify-content: end;
 }
@@ -326,7 +327,7 @@ nav a{
     }
 
 
-@media (min-width:320px) and (max-width:480px) {
+@media (min-width:320px) and (max-width:574px) {
 nav{
     cursor:pointer;
 }
@@ -349,7 +350,7 @@ nav a{
     #left{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 8% 34% 32% 26%;
+        grid-template-rows: 8% 37% 28% 26%;
         /* background-color: antiquewhite; */
     }
     #leftimage{
@@ -460,12 +461,18 @@ nav a{
         font-size: 2.5vw;
         width: 100%;
     }
+    #edusub3{
+        width: 100%;
+    }
     #edubox span{
         font-size: 2em;
         padding: 5px;
         padding-right: 2px;
     }
     .skills{
+        /* text-align: center; */
+        /* justify-content: center; */
+        align-items: center;
         margin-top: 2em;
         padding: 0em;
         display: flex;
@@ -484,6 +491,7 @@ nav a{
 }
     #protitles{
         padding: 1em;
+        padding-right: 20vw;
     }   
     #skillbox{
         box-shadow: 0em 0em 0.2em  rgb(79, 9, 148);
@@ -503,3 +511,218 @@ nav a{
         justify-content: start;
         padding-left: 0.5em;
 }
+}
+
+
+@media (min-width:575px) and (max-width:1439px) {
+nav a{
+
+    padding: 0.5rem;
+    
+}
+    #abgrid{
+        padding-top: 6rem;
+        padding-right: 1.25rem;
+        padding-bottom: 1.25rem;
+        display: grid;
+        grid-template-columns: 100%;
+        /* grid-template-rows: 50% 50%; */
+    }
+    #left{
+        display: grid;
+        
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 20% 55% 28%;
+        /* background-color: antiquewhite; */
+    }
+    #leftimage{
+        display: flex;
+        justify-content: center;
+        grid-column: 2;
+        grid-row: 2;
+        padding: 0px;
+
+        /* background-color: aquamarine; */
+    }
+    #leftimage .image1{
+        padding-top: 0rem;
+        width: 25vw;
+        height: 30vw;
+        /* border-radius: em; */
+    }
+        .image1{
+        background-image: url('photo.JPG');
+        transition: transform 0.3s ease;
+        align-content: center;
+        background-size: cover;
+        box-shadow: 20px 10px 20px  rgb(30, 1, 59);
+        width: 18.75em;
+        height: 24em;
+        border-radius:120px;
+    }
+    .image1:hover{
+        transform: scale(1.1);
+    }
+    #leftimage{
+        padding-top: 5vw;
+    }
+
+    #right{
+        display: none;
+    }
+    #absub2{
+        grid-row: 2;
+        font-size: 2.7vw;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #intro{
+        padding-top: 0rem;
+        padding: 0.1rem;
+        padding-left: 0rem;
+
+    }
+    #intro p{
+        padding-left: 2rem;
+        font-size: 0.7em;
+
+    }
+    #absub3{
+        
+        width: 100%;
+    }
+    #contact{
+        padding: 2rem;
+    }
+    #contact span{
+        font-size: 2rem;
+    }
+    #con1 a,#con2{
+        width: 100%;
+        font-size: 0.9em;
+    }
+ #eduaction{
+    width: 100%;
+    padding: 5em 0px 1em 0px;
+    
+}
+    #edubox{
+        background: linear-gradient(to bottom ,#090429,#4b4285,#312482 ,#0d0638);
+        box-shadow: 0em 0em 0.2em  rgb(79, 9, 148);
+        padding: 20px 0px 20px 4px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0em;
+    }
+    #eduright{
+        /* padding-top: 2em; */
+        padding: 1em;
+        padding-bottom: 0em;
+        font-size: 2vw;
+        width: 100%;
+    }
+    #edusub1 p{
+        padding: 5px;
+        padding-left: 15px;
+    }
+    .edusub2li{
+        padding-left: 5px;
+    }
+    #edusub1{
+        width: 100%;
+        
+        padding-right: 0rem;
+    }
+    #eduleft{
+        /* padding-top: 2em; */
+        padding: 1em;
+        font-size: 2vw;
+        width: 100%;
+    }
+    #edusub3{
+        width: 100%;
+    }
+    #edusub4{
+        /* display: none; */
+        width: 100%;
+    }
+    #edubox span{
+        font-size: 2em;
+        padding: 5px;
+        padding-right: 2px;
+    }
+    .skills{
+        
+        /* text-align: center; */
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 2em;
+        padding: 0em;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+
+#skills{
+    margin-top: 2em;
+    padding-bottom: 4em;;
+    width: 100%;
+    
+    padding: 1em 0px 1em 0px;
+    /* padding-left: 0px; */
+
+}
+    #protitles{
+        display: flex;
+        padding-right: 30vw;
+    }   
+    #skillbox{
+        box-shadow: 0em 0em 0.2em  rgb(79, 9, 148);
+        width: 100%;
+        border-radius: 0em;
+        padding: 20px 0px 20px 4px;
+    }
+    #protitles p {
+        
+        width: 100%;
+        font-size: 2vw;
+        text-align: justify;
+        padding: 1em;
+    }
+    
+    #submain #he{
+        font-size: 9vw;
+        display: flex;
+        justify-content: start;
+        padding-left: 0.5em;
+}
+}
+/* 
+@media (min-width:1025px) and (max-width:2560px) {
+
+nav a{
+    font-size: 1.5vw;
+}
+
+#absub1{
+
+}
+#myself{
+    font-size: 4vw;
+    height: 5vw;
+    width: 26vw;
+    border-radius: 0px 60px 60px 0px;
+}
+#absub2{
+    width: 140%;
+}
+#intro p{
+    font-size: 2vw;
+    width: 100%;
+}
+
+
+} */
